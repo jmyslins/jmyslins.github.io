@@ -9,7 +9,7 @@ var igvwebConfig = {
     
      // Supply a Google client id to enable the Google file picker in the load menus.  This is optional
     clientId: "989066869121-f7rfjf4rc8c7fv06ktmh5mm5od5qbhp8.apps.googleusercontent.com",
-    // apiKey: "...",
+    apiKey: "AIzaSyAfwdo_SVf4XuyfHVTbcOy8p527XrGEa_w",
 
     // Provide a URL shorterner function or object.   This is optional.  If not supplied
     // sharable URLs will not be shortened .
@@ -40,13 +40,13 @@ var igvwebConfig = {
                name: "IB11",
                type: "wig",
                format: "bigwig",
-               url: "https://drive.google.com/uc?id=1VkNiT7clzeV70OLDg-Q0dEu_-NdlSySY",
+               url: "https://drive.google.com/file/d/1VkNiT7clzeV70OLDg-Q0dEu_-NdlSySY/view",
            },
            {
                name: "IB12",
                type: "wig",
                format: "bigwig",
-               url: "https://drive.google.com/uc?id=1nIKq_twOBFSW6GEhqRwYesSXrCtulso_",
+               url: "https://drive.google.com/file/d/1nIKq_twOBFSW6GEhqRwYesSXrCtulso_/view",
            }
            // Other tracks...
        ]
