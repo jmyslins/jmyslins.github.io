@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth Callback</title>
+</head>
+<body>
+    <h1>OAuth Callback Page</h1>
+
+    <script src="https://apis.google.com/js/client.js"></script>
+    <script>
+        // Parse the URL to get the authorization code
+        const urlParams = new URLSearchParams(window.location.search);
+        const authorizationCode = urlParams.get("code");
+
+        // Initialize the Google API Client Library
+        gapi.load("client", () => {
+            gapi.client.init({
+                clientId: "YOUR_CLIENT_ID", // Replace with your actual client ID
+                scope: "https://www.googleapis.com/auth/drive.readonly", // Replace with your desired scope
+            }).then(() => {
+                // Use the authorization code to complete the OAuth flow
+                return gapi.client.getToken({ code: authorizationCode });
+            }).then((response) => {
+                // Handle the response, e.g., store the access token for future requests
+                const accessToken = response.result.access_token;
+                // You can use the access token to access Google Drive files
+                // For example, make API requests using the accessToken
+            }).catch((error) => {
+                console.error("Error handling OAuth response: ", error);
+            });
+        });
+    </script>
+</body>
+</html>
