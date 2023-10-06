@@ -8,7 +8,7 @@ var igvwebConfig = {
     //dropboxAPIKey: "...",
     
      // Supply a Google client id to enable the Google file picker in the load menus.  This is optional
-    //clientId: "...",
+    clientId: "989066869121-f7rfjf4rc8c7fv06ktmh5mm5od5qbhp8.apps.googleusercontent.com",
     // apiKey: "...",
 
     // Provide a URL shorterner function or object.   This is optional.  If not supplied
