@@ -32,10 +32,11 @@ var igvwebConfig = {
             tracks: [
            {
                name: "GY1-0Hr",       
-               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
-               "format": "bam",
-               "indexed": true,
-               "visibilityWindow": 30000000
+               url: "https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view?usp=drive_link",
+               format: "bam",
+               type: "alignment",
+               indexed: true,
+               visibilityWindow: 3000000,
            },
            {
                name: "IB11",
