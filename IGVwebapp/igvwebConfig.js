@@ -31,11 +31,11 @@ var igvwebConfig = {
             showSVGButton: false,
             tracks: [
                 {
-               name: "GY1-0Hr",       
-               url: "https://drive.google.com/file/d/1AakuRgvo2jlhl60-LGrgRyw29CBY7pCi/view",
-               format: "bam",
-               type: "alignment",
-               indexed: true,
+               name: "GY1-0Hr",      
+               url: "https://drive.google.com/file/d/1AakuRgvo2jlhl60-LGrgRyw29CBY7pCi/view?", 
+               "format": "bam",
+               "indexed": true,
+               "visibilityWindow": 30000000
                 },
            {
                name: "IB11",
