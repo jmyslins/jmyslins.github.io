@@ -32,7 +32,7 @@ var igvwebConfig = {
             tracks: [
            {
                name: "GY1-0Hr",       
-               url: "https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view?usp=drive_link",
+               url: "https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x",
                format: "bam",
                type: "alignment",
                indexed: true,
