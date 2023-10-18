@@ -30,14 +30,18 @@ var igvwebConfig = {
             showChromosomeWidget: true,
             showSVGButton: false,
             tracks: [
-           {
+                {
                name: "GY1-0Hr",       
                url: "https://drive.google.com/uc?export=download&id=1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x",
                format: "bam",
                type: "alignment",
                indexed: true,
-               visibilityWindow: 3000000,
-           },
+                },
+                {
+                  name: 'GY1-0Hr Index',
+                  url: 'https://drive.google.com/uc?export=download&id=13GaSJ0KSebaVbZtRws94N5eFds1UoNR7',
+                  indexed: true,
+            },
            {
                name: "IB11",
                type: "wig",
