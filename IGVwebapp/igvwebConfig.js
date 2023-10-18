@@ -32,7 +32,8 @@ var igvwebConfig = {
             tracks: [
                 {
                name: "GY1-0Hr",      
-               url: "https://drive.google.com/file/d/1AakuRgvo2jlhl60-LGrgRyw29CBY7pCi/view?", 
+               url: "https://drive.google.com/file/d/1AakuRgvo2jlhl60-LGrgRyw29CBY7pCi/view", 
+               "indexURL": "https://drive.google.com/file/d/1_v8c8TZpTnHRXChvIs7BKNxqFUnGgBX0/view",
                "format": "bam",
                "indexed": true,
                "visibilityWindow": 30000000
