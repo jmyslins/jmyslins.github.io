@@ -29,9 +29,7 @@ var igvwebConfig = {
             queryParametersSupported: true,
             showChromosomeWidget: true,
             showSVGButton: false,
-			default: {
-				locus: "chr15:38487427-38519266",
-			},
+	    locus: "chr15:38487427-38519266",
             tracks: [
                 {
                name: "GY1-0Hr",      
