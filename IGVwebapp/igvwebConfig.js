@@ -29,6 +29,9 @@ var igvwebConfig = {
             queryParametersSupported: true,
             showChromosomeWidget: true,
             showSVGButton: false,
+			default: {
+				locus: "chr15:38487427-38519266",
+			},
             tracks: [
                 {
                name: "GY1-0Hr",      
@@ -39,16 +42,36 @@ var igvwebConfig = {
                "visibilityWindow": 30000000
                 },
            {
-               name: "IB11",
-               type: "wig",
-               format: "bigwig",
-               url: "https://drive.google.com/file/d/1VkNiT7clzeV70OLDg-Q0dEu_-NdlSySY/view",
+               name: "GY5-1Hr",      
+               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               "format": "bam",
+               "indexed": true,
+               "visibilityWindow": 30000000
            },
            {
-               name: "IB12",
-               type: "wig",
-               format: "bigwig",
-               url: "https://drive.google.com/file/d/1nIKq_twOBFSW6GEhqRwYesSXrCtulso_/view",
+               name: "GY8-4Hr",      
+               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               "format": "bam",
+               "indexed": true,
+               "visibilityWindow": 30000000
+           },
+		   {
+               name: "GY11-16Hr",      
+               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               "format": "bam",
+               "indexed": true,
+               "visibilityWindow": 30000000
+           },
+		   {
+               name: "GY14-28Hr",      
+               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               "format": "bam",
+               "indexed": true,
+               "visibilityWindow": 30000000
            }
            // Other tracks...
        ]
