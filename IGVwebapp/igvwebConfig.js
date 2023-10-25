@@ -42,7 +42,7 @@ var igvwebConfig = {
 		{
             	name: "repeatMask",
             	url: "https://drive.google.com/file/d/1F-W3_B6Oq7o-rjaJM8vrgrye4K85h71J/view",
-            	"type": "bed",
+            	"format": "bed",
             	indexURL: "https://drive.google.com/file/d/1rxetk-z566hz99MQW8HF8N15oVVn-hPB/view", 
            	// displayMode: "EXPANDED",         // Optional: set the display mode
             	color: "rgb(255,0,0)",           // Optional: specify a custom color
