@@ -42,36 +42,36 @@ var igvwebConfig = {
 		{
             	name: "repeatMask",
             	url: "https://drive.google.com/file/d/1F-W3_B6Oq7o-rjaJM8vrgrye4K85h71J/view",
-            	"format": "bam",
+            	"format": "bed",
             	indexURL: "https://drive.google.com/file/d/1rxetk-z566hz99MQW8HF8N15oVVn-hPB/view", 
            	// displayMode: "EXPANDED",         // Optional: set the display mode
             	color: "rgb(255,0,0)",           // Optional: specify a custom color
         	},
-        	// {
-            	// name: "Hyperedits",
-            	// url: "https://drive.google.com/file/d/1Vbji1BXCe_yUWsj7G5VoqLr11IgihvFc/view",
-            	// "type": "bed",
-        	// },
-        	// {
-            	// name: "0_1hr sig",
-            	// url: "https://drive.google.com/file/d/15VtkDPpdpgcbSRMGVftxV-S_dBzCPU3R/view",
-            	// "type": "bed",
-        	// },
-        	// {
-            	// name: "0_4hr sig",
-            	// url: "https://drive.google.com/file/d/1CLwdqXhewWfAvRNA0XMNo0rzUWtYzRC4/view",
-            	// "type": "bed",
-        	// },
-        	// {
-            	// name: "0_16hr sig",
-            	// url: "https://drive.google.com/file/d/1hMyOGnrUgADTCYVnYECeMzY96VaY8On7/view",
-            	// "type": "bed",
-        	// },
-        	// {
-            	// name: "0_28hr sig",
-            	// url: "https://drive.google.com/file/d/1SVHat_TNkqHqJfET5Ob7IcHeLAxNz8vQ/view",
-            	// "type": "bed",
-        	// },
+        	{
+            	name: "Hyperedits",
+            	url: "https://drive.google.com/file/d/1Vbji1BXCe_yUWsj7G5VoqLr11IgihvFc/view",
+            	"format": "bed",
+        	},
+        	{
+            	name: "0_1hr sig",
+            	url: "https://drive.google.com/file/d/15VtkDPpdpgcbSRMGVftxV-S_dBzCPU3R/view",
+            	"format": "bed",
+        	},
+        	{
+            	name: "0_4hr sig",
+            	url: "https://drive.google.com/file/d/1CLwdqXhewWfAvRNA0XMNo0rzUWtYzRC4/view",
+            	"format": "bed",
+        	},
+        	{
+            	name: "0_16hr sig",
+            	url: "https://drive.google.com/file/d/1hMyOGnrUgADTCYVnYECeMzY96VaY8On7/view",
+            	"format": "bed",
+        	},
+        	{
+            	name: "0_28hr sig",
+            	url: "https://drive.google.com/file/d/1SVHat_TNkqHqJfET5Ob7IcHeLAxNz8vQ/view",
+            	"format": "bed",
+        	},
            // Other tracks...
        ]
         },
