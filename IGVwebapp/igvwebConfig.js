@@ -42,7 +42,7 @@ var igvwebConfig = {
 		{
             	name: "repeatMask",
             	url: "https://drive.google.com/file/d/1F-W3_B6Oq7o-rjaJM8vrgrye4K85h71J/view",
-            	"format": "bed",
+            	"format": "bam",
             	indexURL: "https://drive.google.com/file/d/1rxetk-z566hz99MQW8HF8N15oVVn-hPB/view", 
            	// displayMode: "EXPANDED",         // Optional: set the display mode
             	color: "rgb(255,0,0)",           // Optional: specify a custom color
@@ -75,19 +75,7 @@ var igvwebConfig = {
            // Other tracks...
        ]
         },
-	{
-  "label": "Annotations",
-  "description": "Annotations - source <a href=http://hgdownload.soe.ucsc.edu/downloads.html target=_blank>UCSC Genome Browser</a>",
-  "tracks": [
-	{
-	  "type": "bed",
-	  "url": "https://s3.amazonaws.com/igv.org.test/data/gencode.v18.collapsed.bed",
-	  "indexURL": "https://s3.amazonaws.com/igv.org.test/data/gencode.v18.collapsed.bed.idx",
-	  "name": "Gencode V18"
-	}
-  ]
-},
-        googleAPI: {
+	googleAPI: {
         clientId: "989066869121-f7rfjf4rc8c7fv06ktmh5mm5od5qbhp8.apps.googleusercontent.com",
     scope: "https://www.googleapis.com/auth/drive.readonly" // Read-only access
 },
