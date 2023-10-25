@@ -30,15 +30,15 @@ var igvwebConfig = {
             showChromosomeWidget: true,
             showSVGButton: false,
 	    locus: "chr15:38487427-38519266",
-	    alignment: false,
-            tracks: [
+	    tracks: [
                 {
                name: "GY1-0Hr",      
                url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
                "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
-               "visibilityWindow": 30000000
+               "visibilityWindow": 30000000,
+		default: false,
                 },
            {
                name: "GY5-1Hr",      
@@ -46,7 +46,9 @@ var igvwebConfig = {
                // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
-               "visibilityWindow": 30000000
+               "visibilityWindow": 30000000,
+		default: false,
+		type: "empty", 
            },
            {
                name: "GY8-4Hr",      
@@ -54,7 +56,9 @@ var igvwebConfig = {
                // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
-               "visibilityWindow": 30000000
+               "visibilityWindow": 30000000,
+		default: false,
+		type: "empty", 
            },
 		   {
                name: "GY11-16Hr",      
@@ -62,7 +66,9 @@ var igvwebConfig = {
                // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
-               "visibilityWindow": 30000000
+               "visibilityWindow": 30000000,
+		default: false,
+		type: "empty", 
            },
 		   {
                name: "GY14-28Hr",      
@@ -70,7 +76,9 @@ var igvwebConfig = {
                // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
-               "visibilityWindow": 30000000
+               "visibilityWindow": 30000000,
+		default: false,
+		type: "empty", 
            }
            // Other tracks...
        ]
