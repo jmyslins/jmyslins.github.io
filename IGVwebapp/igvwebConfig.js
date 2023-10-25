@@ -29,7 +29,7 @@ var igvwebConfig = {
             queryParametersSupported: true,
             showChromosomeWidget: true,
             showSVGButton: false,
-	    locus: "chr15:38487427-38519266",
+	    locus: "chr15:38491247-38491886",
 	    tracks: [
                 {
                name: "GY1-0Hr",      
@@ -37,7 +37,7 @@ var igvwebConfig = {
                "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
-               "visibilityWindow": 30000000,
+               "visibilityWindow": 300000,
                 },
 		{
             	name: "repeatMask",
