@@ -30,6 +30,7 @@ var igvwebConfig = {
             showChromosomeWidget: true,
             showSVGButton: false,
 	    locus: "chr15:38487427-38519266",
+	    alignment: false,
             tracks: [
                 {
                name: "GY1-0Hr",      
@@ -41,32 +42,32 @@ var igvwebConfig = {
                 },
            {
                name: "GY5-1Hr",      
-               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
-               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               // url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
                "visibilityWindow": 30000000
            },
            {
                name: "GY8-4Hr",      
-               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
-               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               // url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
                "visibilityWindow": 30000000
            },
 		   {
                name: "GY11-16Hr",      
-               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
-               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               // url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
                "visibilityWindow": 30000000
            },
 		   {
                name: "GY14-28Hr",      
-               url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
-               "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+               // url: "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view", 
+               // "indexURL": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
                "format": "bam",
                "indexed": true,
                "visibilityWindow": 30000000
