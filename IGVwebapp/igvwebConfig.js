@@ -51,26 +51,31 @@ var igvwebConfig = {
         	{
             	name: "Hyperedits",
             	url: "https://drive.google.com/file/d/1Vbji1BXCe_yUWsj7G5VoqLr11IgihvFc/view",
+		type: "annotation",
             	"format": "bed",
         	},
         	{
             	name: "0_1hr sig",
             	url: "https://drive.google.com/file/d/15VtkDPpdpgcbSRMGVftxV-S_dBzCPU3R/view",
+		type: "annotation",
             	"format": "bed",
         	},
         	{
             	name: "0_4hr sig",
             	url: "https://drive.google.com/file/d/1CLwdqXhewWfAvRNA0XMNo0rzUWtYzRC4/view",
+		type: "annotation",
             	"format": "bed",
         	},
         	{
             	name: "0_16hr sig",
             	url: "https://drive.google.com/file/d/1hMyOGnrUgADTCYVnYECeMzY96VaY8On7/view",
+		type: "annotation",
             	"format": "bed",
         	},
         	{
             	name: "0_28hr sig",
             	url: "https://drive.google.com/file/d/1SVHat_TNkqHqJfET5Ob7IcHeLAxNz8vQ/view",
+		type: "annotation",
             	"format": "bed",
         	},
            // Other tracks...
