@@ -38,7 +38,7 @@ var igvwebConfig = {
                "format": "bam",
                "indexed": true,
                "visibilityWindow": 30000000,
-		default: false,
+		showAlignments: false,
                 },
            // Other tracks...
        ]
