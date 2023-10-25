@@ -75,6 +75,18 @@ var igvwebConfig = {
            // Other tracks...
        ]
         },
+	{
+  "label": "Annotations",
+  "description": "Annotations - source <a href=http://hgdownload.soe.ucsc.edu/downloads.html target=_blank>UCSC Genome Browser</a>",
+  "tracks": [
+	{
+	  "type": "bed",
+	  "url": "https://s3.amazonaws.com/igv.org.test/data/gencode.v18.collapsed.bed",
+	  "indexURL": "https://s3.amazonaws.com/igv.org.test/data/gencode.v18.collapsed.bed.idx",
+	  "name": "Gencode V18"
+	}
+  ]
+},
         googleAPI: {
         clientId: "989066869121-f7rfjf4rc8c7fv06ktmh5mm5od5qbhp8.apps.googleusercontent.com",
     scope: "https://www.googleapis.com/auth/drive.readonly" // Read-only access
