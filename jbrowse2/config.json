@@ -1,0 +1,1428 @@
+{
+  "assemblies": [
+    {
+      "name": "mm10",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "mm10-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "aliases": [
+        "mm10"
+      ],
+      "displayName": "Mus musculus (GRCm38/mm10)"
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "id": "0sF_qyDV6",
+    "name": "Clcn 3/31/2023, 1:37:00 PM 4/6/2023, 2:15:34 PM",
+    "margin": 0,
+    "drawerWidth": 384,
+    "views": [
+      {
+        "id": "Lk910J2kJ",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 3232526,
+        "bpPerPx": 2.257173407786119,
+        "displayedRegions": [
+          {
+            "refName": "7",
+            "start": 0,
+            "end": 145441459,
+            "reversed": false,
+            "assemblyName": "mm10"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "o4VNI9XdM",
+            "type": "FeatureTrack",
+            "configuration": "refTSS_v3.3_mm10",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "hrj4HvAhr7",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 20,
+                "trackShowLabels": false,
+                "trackShowDescriptions": false,
+                "trackDisplayMode": "compact",
+                "configuration": "refTSS_v3.3_mm10.dispaly"
+              }
+            ]
+          },
+          {
+            "id": "IAmG0V5Yv",
+            "type": "FeatureTrack",
+            "configuration": "mm10.hatolab.bambu.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "-yy55kmBoV",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 266,
+                "configuration": "mm10.hatolab.bambu.gff.dispaly"
+              }
+            ]
+          },
+          {
+            "id": "7fp7qj6QT0",
+            "type": "FeatureTrack",
+            "configuration": "mm10.ensembl101.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "PAFP-w_sud",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 50,
+                "trackDisplayMode": "collapse",
+                "configuration": "mm10.ensembl101.gff.dispaly"
+              }
+            ]
+          },
+          {
+            "id": "7AUXax96V",
+            "type": "MultiQuantitativeTrack",
+            "configuration": "hatolab_bigwig_WT",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "xYfGqbDuOA",
+                "type": "MultiLinearWiggleDisplay",
+                "heightPreConfig": 353,
+                "configuration": "hatolab_bigwig_WT-MultiLinearWiggleDisplay",
+                "selectedRendering": "",
+                "resolution": 1,
+                "layout": [],
+                "constraints": {}
+              }
+            ]
+          },
+          {
+            "id": "PlKhn6Out",
+            "type": "AlignmentsTrack",
+            "configuration": "hatolab_bam_WT_LPS_0h",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "rI2X4EM_1s",
+                "type": "LinearSNPCoverageDisplay",
+                "heightPreConfig": 64,
+                "configuration": "hatolab_bam_WT_LPS_0h.dispaly",
+                "selectedRendering": "",
+                "resolution": 1,
+                "constraints": {},
+                "filterBy": {
+                  "flagInclude": 0,
+                  "flagExclude": 1540
+                }
+              }
+            ]
+          },
+          {
+            "id": "jPDmBlMvX",
+            "type": "AlignmentsTrack",
+            "configuration": "hatolab_bam_WT_LPS_1h",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "5H9tNGgfuc",
+                "type": "LinearSNPCoverageDisplay",
+                "heightPreConfig": 75,
+                "configuration": "hatolab_bam_WT_LPS_1h.dispaly",
+                "selectedRendering": "",
+                "resolution": 1,
+                "constraints": {},
+                "filterBy": {
+                  "flagInclude": 0,
+                  "flagExclude": 1540
+                }
+              }
+            ]
+          },
+          {
+            "id": "5fssLbxd4Y",
+            "type": "AlignmentsTrack",
+            "configuration": "hatolab_bam_WT_LPS_4h",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "8j-l0Wp9O-",
+                "type": "LinearSNPCoverageDisplay",
+                "heightPreConfig": 74,
+                "configuration": "hatolab_bam_WT_LPS_4h.dispaly",
+                "selectedRendering": "",
+                "resolution": 1,
+                "constraints": {},
+                "filterBy": {
+                  "flagInclude": 0,
+                  "flagExclude": 1540
+                }
+              }
+            ]
+          },
+          {
+            "id": "v292aof2T",
+            "type": "AlignmentsTrack",
+            "configuration": "hatolab_bam_WT_LPS_16h",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "y3XdHJYVPU",
+                "type": "LinearSNPCoverageDisplay",
+                "heightPreConfig": 71,
+                "configuration": "hatolab_bam_WT_LPS_16h.dispaly",
+                "selectedRendering": "",
+                "resolution": 1,
+                "constraints": {},
+                "filterBy": {
+                  "flagInclude": 0,
+                  "flagExclude": 1540
+                }
+              }
+            ]
+          },
+          {
+            "id": "LuSzcpF6t",
+            "type": "AlignmentsTrack",
+            "configuration": "hatolab_bam_WT_LPS_28h",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "V0BWP3uYHb",
+                "type": "LinearSNPCoverageDisplay",
+                "heightPreConfig": 78,
+                "configuration": "hatolab_bam_WT_LPS_28h.dispaly",
+                "selectedRendering": "",
+                "resolution": 1,
+                "constraints": {},
+                "filterBy": {
+                  "flagInclude": 0,
+                  "flagExclude": 1540
+                }
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "trackLabels": "offset",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "showGridlines": true
+      }
+    ],
+    "widgets": {
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "collapsed": {},
+        "view": "Lk910J2kJ"
+      }
+    },
+    "activeWidgets": {},
+    "connectionInstances": [],
+    "sessionTracks": [],
+    "sessionConnections": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "sessionPlugins": [],
+    "minimized": false,
+    "drawerPosition": "right"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "mm10.ensembl101.gff",
+      "name": "Ensembl (release 101)",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "data/ref/mm10.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/ref/mm10.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Annotations"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "mm10.ensembl101.gff.dispaly",
+          "renderer": {
+            "color1": "#518071",
+            "color2": "#518071",
+            "color3": "#518071"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "refTSS_v3.3_mm10",
+      "name": "refTSS_v3.3",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "data/ref/refTSS_v3.3_mm10.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Annotations"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "refTSS_v3.3_mm10.dispaly",
+          "renderer": {
+            "color1": "#000000"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mm10.hatolab.bambu.gff",
+      "name": "Bambu annotation",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "data/hatolab/Bambu.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/Bambu.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Annotations"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "mm10.hatolab.bambu.gff.dispaly",
+          "renderer": {
+            "color1": "#692560",
+            "color2": "#692560",
+            "color3": "#692560"
+          }
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_0h",
+      "name": "WT_LPS_0h",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_0h.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_0h.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq (merged)"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_0h.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_1h",
+      "name": "WT_LPS_1h",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_1h.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_1h.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq (merged)"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_1h.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_4h",
+      "name": "WT_LPS_4h",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_4h.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_4h.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq (merged)"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_4h.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_16h",
+      "name": "WT_LPS_16h",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_16h.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_16h.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq (merged)"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_16h.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_28h",
+      "name": "WT_LPS_28h",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_28h.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_28h.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq (merged)"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_28h.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_0h_rep1",
+      "name": "WT_LPS_0h_rep1",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_0h_rep1.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_0h_rep1.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_0h_rep1.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_0h_rep2",
+      "name": "WT_LPS_0h_rep2",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_0h_rep2.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_0h_rep2.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_0h_rep2.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_0h_rep3",
+      "name": "WT_LPS_0h_rep3",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_0h_rep3.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_0h_rep3.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_0h_rep3.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_1h_rep1",
+      "name": "WT_LPS_1h_rep1",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_1h_rep1.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_1h_rep1.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_1h_rep1.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_1h_rep2",
+      "name": "WT_LPS_1h_rep2",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_1h_rep2.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_1h_rep2.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_1h_rep2.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_1h_rep3",
+      "name": "WT_LPS_1h_rep3",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_1h_rep3.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_1h_rep3.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_1h_rep3.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_4h_rep1",
+      "name": "WT_LPS_4h_rep1",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_4h_rep1.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_4h_rep1.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_4h_rep1.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_4h_rep2",
+      "name": "WT_LPS_4h_rep2",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_4h_rep2.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_4h_rep2.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_4h_rep2.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_4h_rep3",
+      "name": "WT_LPS_4h_rep3",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_4h_rep3.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_4h_rep3.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_4h_rep3.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_16h_rep1",
+      "name": "WT_LPS_16h_rep1",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_16h_rep1.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_16h_rep1.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_16h_rep1.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_16h_rep2",
+      "name": "WT_LPS_16h_rep2",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_16h_rep2.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_16h_rep2.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_16h_rep2.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_16h_rep3",
+      "name": "WT_LPS_16h_rep3",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_16h_rep3.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_16h_rep3.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_16h_rep3.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_16h_rep4",
+      "name": "WT_LPS_16h_rep4",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_16h_rep4.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_16h_rep4.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_16h_rep4.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_28h_rep1",
+      "name": "WT_LPS_28h_rep1",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_28h_rep1.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_28h_rep1.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_28h_rep1.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_28h_rep2",
+      "name": "WT_LPS_28h_rep2",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_28h_rep2.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_28h_rep2.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_28h_rep2.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "hatolab_bam_WT_LPS_28h_rep3",
+      "name": "WT_LPS_28h_rep3",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "data/hatolab/bam/WT_LPS_28h_rep3.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/bam/WT_LPS_28h_rep3.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/ref/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/ref/mm10.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "category": [
+        "RNA-seq"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "hatolab_bam_WT_LPS_28h_rep3.dispaly",
+          "type": "LinearSNPCoverageDisplay",
+          "heightPreConfig": 20
+        }
+      ]
+    },
+    {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "hatolab_bigwig_WT",
+      "name": "Read coverage (BigWig)",
+      "description": "BigWig",
+      "category": [
+        "RNA-seq (merged)"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+        "subadapters": [
+          {
+            "type": "BigWigAdapter",
+            "name": "WT_LPS_0h",
+            "bigWigLocation": {
+              "uri": "data/hatolab/bw/WT_LPS_0h.bw"
+            },
+            "group": "minimap2_bigwig",
+            "color": "#4d4d4d"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "WT_LPS_1h",
+            "bigWigLocation": {
+              "uri": "data/hatolab/bw/WT_LPS_1h.bw"
+            },
+            "group": "minimap2_bigwig",
+            "color": "#a65628"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "WT_LPS_4h",
+            "bigWigLocation": {
+              "uri": "data/hatolab/bw/WT_LPS_4h.bw"
+            },
+            "group": "minimap2_bigwig",
+            "color": "#984ea3"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "WT_LPS_16h",
+            "bigWigLocation": {
+              "uri": "data/hatolab/bw/WT_LPS_16h.bw"
+            },
+            "group": "minimap2_bigwig",
+            "color": "#4daf4a"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "WT_LPS_28h",
+            "bigWigLocation": {
+              "uri": "data/hatolab/bw/WT_LPS_28h.bw"
+            },
+            "group": "minimap2_bigwig",
+            "color": "#e41a1c"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mm10_repeatmasker_20140131",
+      "name": "Repeatmasker_20140131",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "data/ref/mm10_repeatmasker_20140131.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Annotations"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "mm10_repeatmasker_20140131.dispaly",
+          "renderer": {
+            "color1": "#000000"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "tx01_baseline.gff",
+      "name": "baseline",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "data/hatolab/tx01_baseline.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/tx01_baseline.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "p53-type isoform switch"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "tx01_baseline.gff.dispaly",
+          "renderer": {
+            "color1": "#454545",
+            "color2": "#454545",
+            "color3": "#454545"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "tx01_de.gff",
+      "name": "p53-type short isoform",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "data/hatolab/tx01_de.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "data/hatolab/tx01_de.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "p53-type isoform switch"
+      ],
+      "assemblyNames": [
+        "mm10"
+      ],
+      "displays": [
+        {
+          "displayId": "tx01_de.gff.dispaly",
+          "renderer": {
+            "color1": "#CE5959",
+            "color2": "#CE5959",
+            "color3": "#CE5959"
+          }
+        }
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "mm10-index",
+      "ixFilePath": {
+        "uri": "trix/mm10.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/mm10.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/mm10_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "mm10"
+      ]
+    }
+  ]
+}
