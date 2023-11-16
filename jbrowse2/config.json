@@ -1,5 +1,7 @@
 {
-  "configuration": "config.json",
+  "configuration": {
+  "config": "config.json"
+},
   "datasets": [
     {
       "name": "My Genome",
