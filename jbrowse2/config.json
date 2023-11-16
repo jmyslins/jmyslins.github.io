@@ -1,18 +1,11 @@
 {
-  "configuration": {
-  "config": "config.json"
-},
-  "datasets": [
+  "assemblies": [
     {
-      "name": "My Genome",
-      "assembly": "mm10",
-      "tracks": [
-        {
-          "type": "ReferenceSequenceTrack",
-          "trackId": "mm10-ReferenceSequenceTrack",
-          "name": "Reference Sequence",
-          "category": "Reference sequence",
-          "adapter": {
+      "name": "mm10",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "mm10-ReferenceSequenceTrack",
+        "adapter": {
             "type": "IndexedFastaAdapter",
             "fastaLocation": {
               "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
@@ -23,7 +16,21 @@
               "locationType": "UriLocation"
             }
           }
-        },
+      },
+      "aliases": [
+        "mm10"
+      ],
+      "displayName": "Mus musculus (GRCm38/mm10)"
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "datasets": [
+    {
+      "name": "My Genome",
+      "assembly": "mm10",
+      "defaultSession": {
+        "tracks": [
         {
           "name": "Refseq Genes",
           "trackId": "RefseqGenes",
@@ -178,6 +185,7 @@
           "format": "bed"
         }
       ]
+    }
     }
   ]
 }
