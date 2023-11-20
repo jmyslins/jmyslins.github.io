@@ -6,186 +6,69 @@
         "type": "ReferenceSequenceTrack",
         "trackId": "mm10-ReferenceSequenceTrack",
         "adapter": {
-            "type": "IndexedFastaAdapter",
-            "fastaLocation": {
-              "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
-              "locationType": "UriLocation"
-            },
-            "faiLocation": {
-              "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
-              "locationType": "UriLocation"
-            }
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+            "locationType": "UriLocation"
           }
-      },
-      "aliases": [
-        "mm10"
-      ],
-      "displayName": "Mus musculus (GRCm38/mm10)"
+        }
+      }
     }
   ],
   "configuration": {},
   "connections": [],
-  "datasets": [
-    {
-      "name": "My Genome",
-      "assembly": "mm10",
-      "defaultSession": {
+  "defaultSession": {
+    "name": "New Default Session",
+    "views": [
+      {
+        "id": "LinearGenomeView-1",
+        "type": "LinearGenomeView",
         "tracks": [
-        {
-          "name": "Refseq Genes",
-          "trackId": "RefseqGenes",
-          "category": "Genes",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://s3.amazonaws.com/igv.org.genomes/mm10/ncbiRefSeq.sorted.txt.gz",
-            "locationType": "UriLocation"
-          },
-          "indexURL": "https://s3.amazonaws.com/igv.org.genomes/mm10/ncbiRefSeq.sorted.txt.gz.tbi",
-          "format": "refgene",
-          "removable": false,
-          "visibilityWindow": -1,
-          "supportsWholeGenome": false
+          {
+            "type": "AlignmentsTrack",
+            "configuration": "GY1-0Hr"
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "GY1-0Hr",
+      "name": "GY1-0Hr",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view",
+          "locationType": "UriLocation"
         },
-        {
-          "name": "GY1-0Hr",
-          "trackId": "GY1-0Hr",
-          "category": "Alignments",
-          "type": "AlignmentsTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1_7oqLiPN3H87xBWeRt81KIFIxSfgxlne/view",
+        "index": {
+          "location": {
+            "uri": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
             "locationType": "UriLocation"
           },
-          "indexURL": "https://drive.google.com/file/d/1mZdXtcwkdE8JjQZ_2LkP80quF-zqkorb/view",
-          "format": "bam",
-          "indexed": true,
-          "visibilityWindow": 300000
+          "indexType": "BAI"
         },
-        {
-          "name": "GY5-1Hr",
-          "trackId": "GY5-1Hr",
-          "category": "Alignments",
-          "type": "AlignmentsTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1FsWwG8cUBDezQmvF5aA1au_SjU_oKrEA/view",
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
             "locationType": "UriLocation"
           },
-          "indexURL": "https://drive.google.com/file/d/1tacnxQSxsrbOlu5ln9E5NN0sQ2p-WdtQ/view",
-          "format": "bam",
-          "indexed": true,
-          "visibilityWindow": 300000
-        },
-        {
-          "name": "GY8-4Hr",
-          "trackId": "GY8-4Hr",
-          "category": "Alignments",
-          "type": "AlignmentsTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1h1fT8s0hUKXmJ-L3DGkXacCjsmDhMVlN/view",
+          "faiLocation": {
+            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
             "locationType": "UriLocation"
-          },
-          "indexURL": "https://drive.google.com/file/d/1SOddWpvAFqk7IYicwbHZUEWcnXmC6wSK/view",
-          "format": "bam",
-          "indexed": true,
-          "visibilityWindow": 300000
-        },
-        {
-          "name": "GY11-16Hr",
-          "trackId": "GY11-16Hr",
-          "category": "Alignments",
-          "type": "AlignmentsTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1KDdS9OwRi6MPEZeqiwve579HjyN9i5Fh/view",
-            "locationType": "UriLocation"
-          },
-          "indexURL": "https://drive.google.com/file/d/1yqvYWfJwfiXg3olfhghP2KUEm8vqzL9Y/view",
-          "format": "bam",
-          "indexed": true,
-          "visibilityWindow": 300000
-        },
-        {
-          "name": "GY14-28Hr",
-          "trackId": "GY14-28Hr",
-          "category": "Alignments",
-          "type": "AlignmentsTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1G7Nd8YLa3CBISyMi_Quh9bmwGcap_fXN/view",
-            "locationType": "UriLocation"
-          },
-          "indexURL": "https://drive.google.com/file/d/17U_L0_IbczCCBs6q--jvyOZzLQJQvGrL/view",
-          "format": "bam",
-          "indexed": true,
-          "visibilityWindow": 300000
-        },
-        {
-          "name": "repeatMask",
-          "trackId": "repeatMask",
-          "category": "Annotations",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1F-W3_B6Oq7o-rjaJM8vrgrye4K85h71J/view",
-            "locationType": "UriLocation"
-          },
-          "format": "bed",
-          "indexURL": "https://drive.google.com/file/d/1rxetk-z566hz99MQW8HF8N15oVVn-hPB/view",
-          "color": "rgb(255,0,0)"
-        },
-        {
-          "name": "Hyperedits",
-          "trackId": "Hyperedits",
-          "category": "Annotations",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1Vbji1BXCe_yUWsj7G5VoqLr11IgihvFc/view",
-            "locationType": "UriLocation"
-          },
-          "format": "bed"
-        },
-        {
-          "name": "0_1hr sig",
-          "trackId": "0_1hr_sig",
-          "category": "Annotations",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/15VtkDPpdpgcbSRMGVftxV-S_dBzCPU3R/view",
-            "locationType": "UriLocation"
-          },
-          "format": "bed"
-        },
-        {
-          "name": "0_4hr sig",
-          "trackId": "0_4hr_sig",
-          "category": "Annotations",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1CLwdqXhewWfAvRNA0XMNo0rzUWtYzRC4/view",
-            "locationType": "UriLocation"
-          },
-          "format": "bed"
-        },
-        {
-          "name": "0_16hr sig",
-          "trackId": "0_16hr_sig",
-          "category": "Annotations",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1hMyOGnrUgADTCYVnYECeMzY96VaY8On7/view",
-            "locationType": "UriLocation"
-          },
-          "format": "bed"
-        },
-        {
-          "name": "0_28hr sig",
-          "trackId": "0_28hr_sig",
-          "category": "Annotations",
-          "type": "FeatureTrack",
-          "source": {
-            "uri": "https://drive.google.com/file/d/1SVHat_TNkqHqJfET5Ob7IcHeLAxNz8vQ/view",
-            "locationType": "UriLocation"
-          },
-          "format": "bed"
+          }
         }
+      },
+      "assemblyNames": [
+        "mm10"
       ]
-    }
     }
   ]
 }
