@@ -8,11 +8,11 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://drive.google.com/file/d/1j7eZ3KgzdwL3G7PCHk0TqxqImWx3g9Cw/view",
+            "uri": "https://drive.google.com/uc?id=1j7eZ3KgzdwL3G7PCHk0TqxqImWx3g9Cw",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://drive.google.com/file/d/1jqDYlMOAl1HvZYN7_bcRTx1ztf0mUgLV/view",
+            "uri": "https://drive.google.com/uc?id=1jqDYlMOAl1HvZYN7_bcRTx1ztf0mUgLV",
             "locationType": "UriLocation"
           }
         }
@@ -44,12 +44,12 @@
       "adapter": {
         "type": "BamAdapter",
         "bamLocation": {
-          "uri": "https://drive.google.com/file/d/1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x/view",
+          "uri": "https://drive.google.com/uc?id=1Gu8yG_9TaKCKNviVekOk04-_kovWfj0x",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "https://drive.google.com/file/d/13GaSJ0KSebaVbZtRws94N5eFds1UoNR7/view",
+            "uri": "https://drive.google.com/uc?id=13GaSJ0KSebaVbZtRws94N5eFds1UoNR7",
             "locationType": "UriLocation"
           },
           "indexType": "BAI"
@@ -57,11 +57,11 @@
         "sequenceAdapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://drive.google.com/file/d/1j7eZ3KgzdwL3G7PCHk0TqxqImWx3g9Cw/view",
+            "uri": "https://drive.google.com/uc?id=1j7eZ3KgzdwL3G7PCHk0TqxqImWx3g9Cw",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://drive.google.com/file/d/1jqDYlMOAl1HvZYN7_bcRTx1ztf0mUgLV/view",
+            "uri": "https://drive.google.com/uc?id=1jqDYlMOAl1HvZYN7_bcRTx1ztf0mUgLV",
             "locationType": "UriLocation"
           }
         }
