@@ -8,11 +8,11 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+            "uri": "https://drive.google.com/file/d/1j7eZ3KgzdwL3G7PCHk0TqxqImWx3g9Cw/view",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+            "uri": "https://drive.google.com/file/d/1jqDYlMOAl1HvZYN7_bcRTx1ztf0mUgLV/view",
             "locationType": "UriLocation"
           }
         }
@@ -57,11 +57,11 @@
         "sequenceAdapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+            "uri": "https://drive.google.com/file/d/1j7eZ3KgzdwL3G7PCHk0TqxqImWx3g9Cw/view",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+            "uri": "https://drive.google.com/file/d/1jqDYlMOAl1HvZYN7_bcRTx1ztf0mUgLV/view?usp=sharing",
             "locationType": "UriLocation"
           }
         }
