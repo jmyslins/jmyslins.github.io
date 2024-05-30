@@ -2,13 +2,37 @@
 <html>
 <head>
   <title>Jered Scripts</title>
+  <style>
+    .column {
+      float: left;
+      width: 33%;
+      padding: 10px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
 </head>
 <body>
   <h1>Jered Scripts</h1>
-  <div id="bashColumn"><h2>Bash</h2><ul></ul></div>
-  <div id="rColumn"><h2>R</h2><ul></ul></div>
-  <div id="otherColumn"><h2>Other</h2><ul></ul></div>
+  <div class="row">
+    <div id="bashColumn" class="column">
+      <h2>Bash</h2>
+      <ul></ul>
+    </div>
+    <div id="rColumn" class="column">
+      <h2>R</h2>
+      <ul></ul>
+    </div>
+    <div id="otherColumn" class="column">
+      <h2>Other</h2>
+      <ul></ul>
+    </div>
+  </div>
 
   <script src="jeredscripts.js"></script>
 </body>
 </html>
+
