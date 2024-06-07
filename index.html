@@ -2,31 +2,38 @@
 <html>
 <head>
   <title>Hato Lab</title>
+  <link rel="stylesheet" href="navbar_styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hato Lab Script Lists Section -->
-  <h1>Hato Lab Scripts</h1>
-  <ul>
-    <li><a href="jeredscripts.html">Jered Scripts</a></li>
-    <li><a href="hatoscripts.html">Hato Scripts</a></li>
-  </ul>
-
-  <!-- Add a horizontal rule for visual separation -->
-  <hr>
+  <nav>
+    <ul>
+      <a href="index.html">
+        <li>Home</li>
+      </a>
+      <a href="about.html">
+        <li>About</li>
+      </a>
+      <a href="data.html">
+        <li>Data</li>
+      </a>
+    </ul>
+  </nav>
+  <header class="video-header">
+    <div class="overlay"></div>
+    <video  autoplay="autoplay" muted="muted" loop="loop">
+        <source src="./videos/header_video.mp4" type="video/mp4">
+    </video>
+    <div class="header-content">
+        <h1>Hato Lab</h1>
+        <p>Indiana University Indianapolis</p>
+    </div>
+</header>
+<main>
   
-  <!-- Hato Lab Protocols Section -->
-  <h1>Hato Lab Protocols</h1>
-  <a href="protocols.html">Protocols</a>
-  <script src="protocols.js"></script>
-
-  <!-- Add a horizontal rule for visual separation -->
-  <hr>
-
-  <!-- Hato Lab Apps Section -->
-  <h1>Hato Lab Apps</h1>
-  <ul id="appList"></ul>
-  <script src="script.js"></script>
-
+    
   
+  
+</main>
 </body>
 </html>
