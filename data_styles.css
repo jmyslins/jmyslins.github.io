@@ -1,0 +1,119 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    /* padding: 20px 50px; */
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: #EEEEEE;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+/* add margin to headings */
+h1 {
+    margin: 30px 0 10px; /* Combine margin-top and margin-bottom */
+}
+
+
+/* Style list tags */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style applist and labscripts */
+ul#appList, ul#labScripts {
+    display: flex;
+    gap: 20px;
+}
+
+/* Allow wrapping of flex items in 'appList' */
+ul#appList {
+    flex-wrap: wrap;
+}
+
+/* Define flex properties for list items */
+ul#appList li {
+    flex: 1 1 300px;
+}
+
+/* Prevent wrapping of flex items in labscripts list */
+ul#labScripts {
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
+ li, #protocolsLink{
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+main li:hover,
+main li:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+main li:hover {
+  transform: translateY(-1px);
+}
+
+main li:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+
+main{
+    margin-top:100px;
+    padding:20px 80px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
