@@ -17,16 +17,21 @@ body {
     
 }
 
+
 /* add margin to headings */
-h1 {
+h1,h3 {
     margin: 30px 0 10px; /* Combine margin-top and margin-bottom */
 }
+
 
 
 /* Style list tags */
 a {
     text-decoration: none;
     color: black;
+    width:100%;
+    height:100%;
+    text-align: center;
 }
 
 /* Style applist and labscripts */
@@ -38,19 +43,19 @@ ul#appList, ul#labScripts {
 /* Allow wrapping of flex items in 'appList' */
 ul#appList {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Define flex properties for list items */
 ul#appList li {
     flex: 1 1 300px;
+    max-width: 400px;
 }
 
 /* Prevent wrapping of flex items in labscripts list */
 ul#labScripts {
     flex-wrap: nowrap;
 }
-
-
 
 
 
@@ -117,3 +122,4 @@ main{
         opacity: 1;
     }
 }
+
