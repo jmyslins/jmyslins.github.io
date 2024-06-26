@@ -1,0 +1,40 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#EEEEEE;;
+}
+
+section#videos{
+    margin-top:160px;
+    padding:70px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+#videos a{
+    margin:14px;
+}
+
+
+#videos img{
+    width: 15em;
+    height:15em;
+}
+
+#videos img:hover{
+    transform: translateY(-1px);
+    transform: scale(1.01);
+}
+
+
+section#description{
+    display:flex;
+    justify-content: center;
+   margin-bottom:50px;
+}
