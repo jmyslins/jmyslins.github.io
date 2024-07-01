@@ -90,3 +90,13 @@ nav li{
         opacity: 1;
     }
 }
+
+
+.credits{
+    position:absolute;
+    color:white;
+    bottom:20px;
+    right:20px;
+    font-size:10px;
+    z-index:10;
+}
