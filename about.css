@@ -37,6 +37,7 @@ section .description{
 section img{
     flex:1 1 200px;
     border-radius:10px;
+    max-width:90vw;
 }
 
 h1{
