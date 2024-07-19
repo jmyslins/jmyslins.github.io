@@ -37,6 +37,7 @@ section .description{
 section img{
     flex:1 1 250px;
     border-radius:10px;
+    max-width:95vw;
 }
 
 h1{
@@ -62,12 +63,7 @@ section#team h1{
     margin-top:20px;
 }
 
-/* section#images img.vertical{
-    max-width: 300px;
-}
-section#images img.horizontal{
-    max-width: 600px;
-} */
+
 section#images img{
     max-height:275px;
 }
