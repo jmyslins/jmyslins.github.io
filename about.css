@@ -32,12 +32,11 @@ section#PI, section#bio{
     align-items: center;
 }
 section .description{
-    flex:2 1 600px;
+    flex:1 1 600px;
 }
 section img{
-    flex:1 1 250px;
+    flex:1 1 200px;
     border-radius:10px;
-    max-width:95vw;
 }
 
 h1{
