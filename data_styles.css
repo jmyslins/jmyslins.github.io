@@ -26,7 +26,7 @@ h1,h3 {
 
 
 /* Style list tags */
-ul#appList a, ul#labScripts a {
+ul#appList a, ul#labScripts a, ul#labNotes a {
     text-decoration: none;
     color: black;
     width:100%;
@@ -35,7 +35,7 @@ ul#appList a, ul#labScripts a {
 }
 
 /* Style applist and labscripts */
-ul#appList, ul#labScripts {
+ul#appList, ul#labScripts, ul#labNotes {
     display: flex;
     gap: 20px;
 }
@@ -53,7 +53,7 @@ ul#appList li {
 }
 
 /* Prevent wrapping of flex items in labscripts list */
-ul#labScripts {
+ul#labScripts, ul#labNotes {
     flex-wrap: nowrap;
 }
 
