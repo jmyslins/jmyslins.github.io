@@ -16,6 +16,8 @@ fetch('scripts.csv')
           document.querySelector('#bashColumn ul').appendChild(li);
         } else if (program.trim().toLowerCase() === 'r') {
           document.querySelector('#rColumn ul').appendChild(li);
+        } else if (programLower === 'python') {  // New check for Python
+          document.querySelector('#pythonColumn ul').appendChild(li);
         } else {
           document.querySelector('#otherColumn ul').appendChild(li);
         }
