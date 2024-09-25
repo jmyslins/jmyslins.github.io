@@ -12,9 +12,11 @@ fetch('scripts.csv')
         a.textContent = name.trim();
         li.appendChild(a);
 
-        if (program.trim().toLowerCase() === 'bash') {
+        const programLower = program.trim().toLowerCase(); // Convert to lowercase once
+                
+        if (programLower === 'bash') {
           document.querySelector('#bashColumn ul').appendChild(li);
-        } else if (program.trim().toLowerCase() === 'r') {
+        } else if (programLower === 'r') {
           document.querySelector('#rColumn ul').appendChild(li);
         } else if (programLower === 'python') {  // New check for Python
           document.querySelector('#pythonColumn ul').appendChild(li);
