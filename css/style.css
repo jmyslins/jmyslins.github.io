@@ -54,17 +54,19 @@ video{
 }
 
 header {
+    /* position header */
     position: absolute;
     left:50px;
     bottom:50px;
     z-index: 2;
     padding: 20px;
-
+    /* animate header */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
+/* set font sizes for heading and paragraph within the header */
 header h1 {
     font-size: 3em;
     margin: 0;
@@ -80,7 +82,7 @@ nav li{
     color:aliceblue;
 }
 
-
+/* settings for fade-in animation */
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -90,7 +92,7 @@ nav li{
     }
 }
 
-
+/* position credit paragraph */
 .credits{
     position:absolute;
     color:white;
@@ -98,13 +100,14 @@ nav li{
     right:20px;
     font-size:10px;
     z-index:10;
+    margin-right:20px;
 }
 
 
 
 
 
-
+/* make design responsive to smaller screen sizes */
 @media screen and (max-width: 1000px) {
     header{
         left:50%;
