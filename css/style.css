@@ -42,7 +42,7 @@ video{
     transition: 1s opacity;
 }
 
-/* create gray */
+/* create gray overlay*/
 .video-container .overlay {
     position: absolute;
     top: 0;
@@ -53,7 +53,7 @@ video{
     z-index: 1;
 }
 
-.header-content {
+header {
     position: absolute;
     left:50px;
     bottom:50px;
@@ -65,12 +65,12 @@ video{
     animation-fill-mode: forwards;
 }
 
-.header-content h1 {
+header h1 {
     font-size: 3em;
     margin: 0;
 }
 
-.header-content p {
+header p {
     font-size: 1.5em;
     margin: 10px 0 0;
 }
@@ -106,7 +106,7 @@ nav li{
 
 
 @media screen and (max-width: 1000px) {
-    .header-content{
+    header{
         left:50%;
         transform:translate(-50%,0);
         width:100vw;
