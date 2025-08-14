@@ -5,23 +5,20 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
 body{
+    /* set font */
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+/* make video background take up full screen*/
 video{
     width:100vw;
     height:100vh;
     object-fit:cover;
 }
 
-.video-header {
+/* position video container */
+.video-container {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -30,7 +27,8 @@ video{
     text-align: center;
 }
 
-.video-header video {
+/* position video */
+.video-container video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,7 +42,8 @@ video{
     transition: 1s opacity;
 }
 
-.video-header .overlay {
+/* create gray overlay*/
+.video-container .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,34 +53,36 @@ video{
     z-index: 1;
 }
 
-.header-content {
+header {
+    /* position header */
     position: absolute;
     left:50px;
     bottom:50px;
     z-index: 2;
     padding: 20px;
-
+    /* animate header */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.header-content h1 {
+/* set font sizes for heading and paragraph within the header */
+header h1 {
     font-size: 3em;
     margin: 0;
 }
 
-.header-content p {
+header p {
     font-size: 1.5em;
     margin: 10px 0 0;
 }
 
-
+/* set navigation buttons to be white */
 nav li{
     color:aliceblue;
 }
 
-
+/* settings for fade-in animation */
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -91,7 +92,7 @@ nav li{
     }
 }
 
-
+/* position credit paragraph */
 .credits{
     position:absolute;
     color:white;
@@ -99,15 +100,16 @@ nav li{
     right:20px;
     font-size:10px;
     z-index:10;
+    margin-right:20px;
 }
 
 
 
 
 
-
+/* make design responsive to smaller screen sizes */
 @media screen and (max-width: 1000px) {
-    .header-content{
+    header{
         left:50%;
         transform:translate(-50%,0);
         width:100vw;
