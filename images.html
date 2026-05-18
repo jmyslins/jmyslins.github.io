@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      const newSite = "https://hatolab-iu.github.io";
+      const newUrl = newSite + window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body>
+    <p>
+      Redirecting to the new Hato Lab website.
+      <a id="manual-link" href="https://hatolab-iu.github.io/">Click here if you are not redirected.</a>
+    </p>
+
+    <script>
+      document.getElementById("manual-link").href =
+        "https://hatolab-iu.github.io" + window.location.pathname + window.location.search + window.location.hash;
+    </script>
+  </body>
+</html>
